@@ -16,6 +16,7 @@ margin: 0;
     max-width: 400px;    
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+
     padding: 20px;
 }
 h1 {
@@ -33,3 +34,14 @@ label {
     color: #555;
     font-weight: bold;
 }
+
+    padding: 20px;}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
