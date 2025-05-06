@@ -27,4 +27,9 @@ h1 {
 .input-group {
     margin-bottom: 15px;
 }
-
+label {
+    display: block;          /* Each label on its own line */
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
