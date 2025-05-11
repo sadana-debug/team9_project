@@ -1,15 +1,26 @@
-/* Body Styles */
+
+/* HTML root element styling */
+html {
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+    font-size: 16px;         /* Base font size for rem calculations */
+    line-height: 1.6;        /* Base line height */
+
+}
 
 body {
-  font-family: Arial, sans-serif;
-justify-content:right;
-  background: #f0f0f0;
-margin: 0;
-  padding: 20px;
-
-  display: flex;
-  
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; /* Font stack */
+    background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%); /* Gradient background */
+    margin: 0;
+    padding: 20px;
+    display: flex;           /* Flexbox layout */
+    justify-content: center;  /* Horizontal centering */
+    align-items: center;      /* Vertical centering */
+    min-height: 100vh;        /* Full viewport height */
+    color: #333;             /* Default text color */
+    overflow-x: hidden;       /* Prevent horizontal scroll */
+    transition: all 0.3s ease; /* Smooth transitions for theme changes */
 }
+/* Body Styles */
 #bmi-container {
 
     background: #ffffff;
