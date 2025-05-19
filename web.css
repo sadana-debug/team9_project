@@ -12,6 +12,9 @@ body {
     background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%); /* Gradient background */
     margin: 0;
     padding: 20px;
+    width: 100%;
+    max-width: 450px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;           /* Flexbox layout */
     justify-content: center;  /* Horizontal centering */
     align-items: center;      /* Vertical centering */
@@ -37,6 +40,10 @@ body {
 }
 
 h1 {
+   content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
     text-align: center;
     margin-bottom: 20px;
     color: #333;
@@ -45,6 +52,38 @@ h1 {
 .input-group {
     margin-bottom: 15px;
 }
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+.input-icon {
+    position: absolute;
+    right: 15px;
+    top: 38px;
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+/* ============================================= */
+/* BUTTON STYLES                                 */
+/* ============================================= */
+#calculate-btn {
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    color: white;
+    padding: 14px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 label {
     display: block;          /* Each label on its own line */
     margin-bottom: 5px;
@@ -84,4 +123,31 @@ input[type="number"] {
     padding: 20px;
     animation: fadeIn 0.5s ease-out;
 }
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+.input-icon {
+    position: absolute;
+    right: 15px;
+    top: 38px;
+    color: #7f8c8d;
+#calculate-btn {
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    color: white;
+    padding: 14px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}    font-size: 1.1rem;
 
