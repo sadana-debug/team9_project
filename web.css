@@ -61,4 +61,27 @@ input[type="number"] {
     border-radius: 4px;
 }
 
+#calculate-btn:hover {
+    background: linear-gradient(to right, #2980b9, #27ae60);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+#calculate-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================================= */
+/* RESULT AREA STYLES                            */
+/* ============================================= */
+#result-area {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    animation: fadeIn 0.5s ease-out;
+}
 
