@@ -121,4 +121,14 @@ input[type="number"]:focus {
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }    font-size: 1.1rem;
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
 
+#result-bmi {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
