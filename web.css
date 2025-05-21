@@ -99,6 +99,19 @@ input[type="number"] {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+/* ============================================= */
+/* RESULT AREA STYLES                            */
+/* ============================================= */
+#result-area {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    animation: fadeIn 0.5s ease-out;
+}
+
 
 #calculate-btn:hover {
     background: linear-gradient(to right, #2980b9, #27ae60);
@@ -149,7 +162,8 @@ input[type="number"]:focus {
     text-transform: uppercase;
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}    font-size: 1.1rem;
+}   
+
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
@@ -161,3 +175,35 @@ input[type="number"]:focus {
     color: #2c3e50;
     margin-bottom: 5px;
 }
+
+
+
+#result-category {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* BMI Category Colors */
+.category-underweight {
+    background-color: #f39c12;
+    color: white;
+}
+
+.category-normal {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.category-overweight {
+    background-color: #e67e22;
+    color: white;
+}
+
+.category-obese {
+    background-color: #e74c3c;
+    color: white;
+}
+
