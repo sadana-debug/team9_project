@@ -150,4 +150,39 @@ input[type="number"]:focus {
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }    font-size: 1.1rem;
+/* ============================================= */
+/* ADDITIONAL INFO SECTION                       */
+/* ============================================= */
+#bmi-info {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+#bmi-info h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+#bmi-info ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+#bmi-info li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 20px;
+}
+
+#bmi-info li::before {
+    content: 'â€¢';
+    position: absolute;
+    left: 0;
+    color: #3498db;
+    font-weight: bold;
+}
 
