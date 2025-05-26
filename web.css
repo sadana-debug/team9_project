@@ -206,4 +206,52 @@ input[type="number"]:focus {
     background-color: #e74c3c;
     color: white;
 }
+/* ============================================= */
+/* FOOTER STYLES                                 */
+/* ============================================= */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #7f8c8d;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* ============================================= */
+/* RESPONSIVE DESIGN                             */
+/* ============================================= */
+@media (max-width: 480px) {
+    #bmi-container {
+        padding: 20px;
+        border-radius: 0;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    input[type="number"] {
+        padding: 10px 12px;
+    }
+    
+    #calculate-btn {
+        padding: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    #bmi-container {
+        max-width: 500px;
+    }
+}
 
